@@ -1,6 +1,6 @@
 # Auth0-Sample
 
-Simple angular project using the Auth0 service for secure access on routes.
+Simple angular project using the [Auth0](https://auth0.com) service for secure access on routes.
 
 ## Angular CLI
 
@@ -14,4 +14,6 @@ More informations [here](https://cli.angular.io) .
 ## Start the app
 
 `ng serve`
+
+You can check it on http://localhost:4200.
 
