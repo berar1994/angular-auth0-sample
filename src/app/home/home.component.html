@@ -1,0 +1,11 @@
+<div class="card" style="width: 18rem;" id="logoutContainer">
+    <div class="card-body" *ngIf="authService.isAuthenticated()">
+        <h3 class="card-title">Logout</h3>
+        <button class="btn btn-primary" (click)="logout()" id="logoutButton">PRESS</button>
+    </div>
+
+    <div class="card-body" *ngIf="!authService.isAuthenticated()">
+        <h3 class="card-title">Error</h3>
+        <p class="card-text">You are not authenticated.</p>
+    </div>
+</div>
